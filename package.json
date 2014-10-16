@@ -1,13 +1,13 @@
 {
   "name": "imgapi",
-  "description": "Image API to manage images for SDC 7",
+  "description": "Image API to manage images for SmartOS and SmartDataCenter",
   "version": "2.0.0",
   "author": "Joyent (joyent.com)",
   "private": true,
   "dependencies": {
     "assert-plus": "0.1.5",
     "async": "0.7.0",
-    "bunyan": "0.22.3",
+    "bunyan": "git+ssh://git@github.com:trentm/node-bunyan.git#6fc941c",
     "dashdash": "1.5.0",
     "expiring-lru-cache": "2.1.0",
     "imgmanifest": "git+ssh://git@github.com:joyent/node-imgmanifest.git#master",
